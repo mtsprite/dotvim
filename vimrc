@@ -39,14 +39,6 @@ set noswapfile
 
 filetype plugin indent on
 
-if has('autocmd')
-  autocmd filetype python set expandtab
-  autocmd filetype html,xml set listchars-=tab:>.
-endif
-
-set list
-set listchars=tab:>.,trail:.,extends:#,nbsp:.
-
 set pastetoggle=<F2>
 
 set mouse=a
